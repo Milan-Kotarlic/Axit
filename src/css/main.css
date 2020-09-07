@@ -10,16 +10,65 @@ html {
   font-size: 10px; }
 
 body {
-  font-family: "lato"; }
+  font-family: "Open Sans";
+  font-size: 1.4rem;
+  font-weight: 400; }
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url(../assets/fonts/OpenSans-Regular.ttf);
+  font-weight: 400; }
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url(../assets/fonts/OpenSans-SemiBold.ttf);
+  font-weight: 600; }
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url(../assets/fonts/OpenSans-Bold.ttf);
+  font-weight: 700; }
+
+@font-face {
+  font-family: 'Raleway';
+  src: url(../assets/fonts/Raleway-Light.ttf);
+  font-weight: 300; }
+
+@font-face {
+  font-family: 'Raleway';
+  src: url(../assets/fonts/Raleway-Regular.ttf);
+  font-weight: 400; }
+
+@font-face {
+  font-family: 'Raleway';
+  src: url(../assets/fonts/Raleway-Bold.ttf);
+  font-weight: 700; }
 
 .u-heading-l {
-  font-size: 4rem; }
+  font-size: 3.6rem;
+  font-family: "Raleway";
+  font-weight: 400;
+  color: #ffffff; }
+  .u-heading-l--black {
+    color: #212121; }
 
 .u-heading-md {
-  font-size: 3rem; }
+  font-size: 2rem;
+  font-weight: 700;
+  color: #333333; }
+  .u-heading-md--black-heading {
+    color: #212121; }
+  .u-heading-md--black {
+    color: #000000; }
+  .u-heading-md--white {
+    color: #ffffff; }
 
 .u-heading-sm {
-  font-size: 2rem; }
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #212121; }
+  .u-heading-sm--white {
+    color: #ffffff; }
 
 .title {
   color: darkcyan; }

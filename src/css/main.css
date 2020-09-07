@@ -12,7 +12,8 @@ html {
 body {
   font-family: "Open Sans";
   font-size: 1.4rem;
-  font-weight: 400; }
+  font-weight: 400;
+  line-height: 2rem; }
 
 @font-face {
   font-family: 'Open Sans';
@@ -47,21 +48,24 @@ body {
 .u-heading-l {
   font-size: 3.6rem;
   font-family: "Raleway";
-  font-weight: 400;
-  color: #ffffff; }
+  color: #ffffff;
+  line-height: 4.32rem; }
   .u-heading-l--black {
-    color: #212121; }
+    color: #212121;
+    line-height: 4.3rem; }
 
 .u-heading-md {
   font-size: 2rem;
   font-weight: 700;
-  color: #333333; }
-  .u-heading-md--black-heading {
-    color: #212121; }
+  color: #333333;
+  line-height: 2.4rem; }
   .u-heading-md--black {
     color: #000000; }
   .u-heading-md--white {
     color: #ffffff; }
+  .u-heading-md--black-heading {
+    color: #212121;
+    line-height: 4.3rem; }
 
 .u-heading-sm {
   font-size: 1.4rem;
@@ -70,15 +74,56 @@ body {
   .u-heading-sm--white {
     color: #ffffff; }
 
-.title {
-  color: darkcyan; }
+.c-header {
+  background-color: #000000; }
 
-.container {
+.c-header__wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 2.7rem 1rem 2.6rem; }
+  @media screen and (min-width: 640px) {
+    .c-header__wrapper {
+      flex-direction: row;
+      justify-content: space-between; } }
+
+.c-header__logo {
+  margin-bottom: 2rem; }
+  @media screen and (min-width: 640px) {
+    .c-header__logo {
+      margin-bottom: 0; } }
+
+.c-header__logo-image {
+  height: 2.7rem;
+  width: 7.9rem; }
+
+.c-navigation__list {
+  display: flex; }
+
+.c-navigation__item {
+  margin-right: 1rem; }
+  @media screen and (min-width: 640px) {
+    .c-navigation__item {
+      margin-right: 4.6rem; } }
+
+.c-navigation__link {
+  color: #ffffff;
+  opacity: 0.69;
+  text-decoration: none; }
+
+.l-container {
   max-width: 115.8rem;
   width: 100%;
   margin: 0 auto; }
+  @media screen and (max-width: 1250px) {
+    .l-container {
+      max-width: 99.1rem; } }
+  @media screen and (max-width: 991px) {
+    .l-container {
+      max-width: 76.7rem; } }
 
-.container-md {
+.l-container-md {
   max-width: 113.4rem;
   width: 100%;
   margin: 0 auto; }

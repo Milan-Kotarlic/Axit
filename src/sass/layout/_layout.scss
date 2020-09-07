@@ -1,11 +1,19 @@
-.container {
-    max-width: 144rem;
+.l-container {
+    max-width: 115.8rem;
     width: 100%;
     margin: 0 auto;
+
+    @include mq($lap-small) {
+        max-width: 99.1rem;
+    }
+
+    @include mq($tablet) {
+        max-width: 76.7rem;
+    }
 }
 
-.container-md {
-    max-width: 114rem;
+.l-container-md {
+    max-width: 113.4rem;
     width: 100%;
     margin: 0 auto;
 }

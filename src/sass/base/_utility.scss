@@ -1,9 +1,40 @@
 .u-heading-l {
-    font-size: 4rem;
+    font-size: 3.6rem;
+    font-family: $font-secondary;
+    color: $white;
+    line-height: 4.32rem;
+
+    &--black {
+        color: $dark-gray;
+        line-height: 4.3rem;
+    }
 }
 .u-heading-md {
-    font-size: 3rem;
+    font-size: 2rem;
+    font-weight: 700;
+    color: $gray;
+    line-height: 2.4rem;
+
+    &--black {
+        color: $black;
+    }
+
+    &--white {
+        color: $white;
+    }
+
+    &--black-heading {
+        color: $dark-gray;
+        line-height: 4.3rem;
+    }
+
 }
 .u-heading-sm {
-    font-size: 2rem;
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: $dark-gray;
+
+    &--white {
+        color: $white;
+    }
 }

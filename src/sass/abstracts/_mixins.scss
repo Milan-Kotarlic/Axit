@@ -10,3 +10,18 @@
 	justify-content: center;
 	align-items: center;
 }
+
+@mixin line-under-heading {
+		content: '';
+		position: absolute;
+		bottom: -1.4rem;
+		left: 50%;
+		transform: translateX(-50%);
+		width: 6.4rem;
+		height: 0.2rem;
+		background-color: $color-orange;
+
+		@include mq($tablet, min) {
+			bottom: -2.6rem;
+		}
+}

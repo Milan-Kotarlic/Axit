@@ -1,0 +1,16 @@
+{
+  "name": "axit",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "node-sass --include-path scss src/sass/main.scss src/css/main.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "author": "Milan",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.14.1",
+    "nodemon": "^2.0.4"
+  }
+}

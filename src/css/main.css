@@ -53,7 +53,8 @@ body {
   color: #ffffff;
   line-height: 4.32rem;
   font-weight: 400;
-  margin-bottom: 5rem; }
+  margin-bottom: 5rem;
+  text-transform: uppercase; }
   @media screen and (min-width: 640px) {
     .u-heading-l {
       font-size: 3.3; } }
@@ -77,13 +78,14 @@ body {
   margin-bottom: 3rem; }
   @media screen and (min-width: 991px) {
     .u-heading-l--main {
-      margin-bottom: 5.2rem; } }
+      margin-bottom: 7.2rem; } }
   .u-heading-l--main::after {
     background-color: #ffffff; }
     @media screen and (min-width: 640px) {
       .u-heading-l--main::after {
         left: 0;
-        transform: translateX(0); } }
+        transform: translateX(0);
+        bottom: -3.45rem; } }
 
 .u-heading-l--black {
   color: #212121;
@@ -126,7 +128,8 @@ body {
   padding: 1.1rem 3.1rem;
   border: 2px solid #ffffff;
   font-weight: 600;
-  font-size: 1.4rem; }
+  font-size: 1.5rem;
+  line-height: 1.8rem; }
 
 .c-trial-form {
   display: flex;
@@ -141,11 +144,11 @@ body {
   border-radius: 5px; }
   @media screen and (min-width: 640px) {
     .c-trial-form {
-      margin: 2rem 0 auto 0; } }
+      margin: 2.95rem 0 auto 0; } }
   @media screen and (min-width: 991px) {
     .c-trial-form {
       width: 36rem;
-      height: 37rem; } }
+      height: 37.1rem; } }
 
 .c-trial-form__header {
   padding: 1.3rem 0 1.4rem;
@@ -181,7 +184,7 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  padding: 2.7rem 1rem 2.6rem; }
+  padding: 2rem 1rem 2rem; }
   @media screen and (min-width: 640px) {
     .c-header__wrapper {
       flex-direction: row;
@@ -238,7 +241,7 @@ body {
   background-blend-mode: soft-light; }
   @media screen and (min-width: 991px) {
     .c-hero-banner {
-      padding: 11rem 0 13.5rem; } }
+      padding: 11rem 0 12.6rem; } }
 
 .c-hero-banner__wrapper {
   padding: 2rem 1rem; }
@@ -246,6 +249,9 @@ body {
     .c-hero-banner__wrapper {
       display: flex;
       justify-content: space-between; } }
+  @media screen and (min-width: 991px) {
+    .c-hero-banner__wrapper {
+      padding: 0; } }
 
 .c-hero-banner-content {
   text-align: center; }
@@ -267,7 +273,9 @@ body {
   opacity: 0.8;
   font-family: "Raleway";
   font-weight: 300;
-  margin-bottom: 2rem; }
+  margin-bottom: 2rem;
+  font-size: 1.6rem;
+  line-height: 2.3rem; }
   @media screen and (min-width: 991px) {
     .c-hero-banner-content__text {
       margin-bottom: 4.3rem; } }

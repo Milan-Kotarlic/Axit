@@ -6,6 +6,7 @@
     line-height: 4.32rem;
     font-weight: 400;
     margin-bottom: 5rem;
+    text-transform: uppercase;
     
     @include mq($phone, min) {
         font-size: 3.3
@@ -24,7 +25,7 @@
     margin-bottom: 3rem;
 
     @include mq($tablet, min) {
-        margin-bottom: 5.2rem;
+        margin-bottom: 7.2rem;
     }
 
     &::after {
@@ -33,6 +34,7 @@
         @include mq($phone, min) {
             left: 0;
             transform: translateX(0);
+            bottom: -3.45rem;
         }
     }
 }

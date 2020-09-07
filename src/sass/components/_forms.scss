@@ -11,12 +11,12 @@
 	border-radius: 5px;
 
 	@include mq($phone, min) {
-		margin: 2rem 0 auto 0;
+		margin: 2.95rem 0 auto 0;
 	}
 
 	@include mq($tablet, min) {
 		width: 36rem;
-		height: 37rem;
+		height: 37.1rem;
 	}
 }
 

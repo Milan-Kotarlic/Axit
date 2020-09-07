@@ -110,7 +110,9 @@ body {
 .c-navigation__link {
   color: #ffffff;
   opacity: 0.69;
-  text-decoration: none; }
+  text-decoration: none;
+  font-weight: 600;
+  line-height: 1.68rem; }
 
 .l-container {
   max-width: 115.8rem;

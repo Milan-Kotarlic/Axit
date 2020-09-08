@@ -192,17 +192,15 @@ body {
   @media screen and (min-width: 640px) {
     .c-logo {
       margin-bottom: 0; } }
-
-.c-logo--big {
-  margin-bottom: 2.5rem; }
+  .c-logo.is-hero-logo {
+    margin-bottom: 2.5rem; }
+    .c-logo.is-hero-logo .c-logo__image {
+      width: 17.5rem;
+      height: 6rem; }
 
 .c-logo__image {
   height: 2.7rem;
   width: 7.9rem; }
-
-.c-logo__image--big {
-  width: 17.5rem;
-  height: 6rem; }
 
 .c-header {
   background-color: #000000; }

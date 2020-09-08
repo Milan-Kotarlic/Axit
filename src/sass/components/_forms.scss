@@ -1,0 +1,67 @@
+.c-trial-form {
+	display: flex;
+	flex-direction: column;
+	margin-top: 2rem;
+	background-color: $white;
+	justify-content: space-between;
+	overflow: hidden;
+	width: 30rem;
+	margin: 2rem auto 0;
+	border-radius: 5px;
+
+	@include mq($phone, min) {
+		margin: 2.95rem 0 auto 0;
+	}
+
+	@include mq($tablet, min) {
+		width: 36rem;
+	}
+}
+
+.c-trial-form__header {
+	text-align: center;
+	background-color: $background;
+}
+
+.c-trial-form__heading {
+	padding: 1.5rem 0;
+}
+
+.c-trial-form__input {
+	margin: 0 4.6rem;
+	border: none;
+	box-shadow: 0 1px 0 rgba($black, 0.16);
+	padding: 0.95rem 0 0.95rem 1.4rem;
+	line-height: 1.68rem;
+	font-size: 1.4rem;
+
+	&::placeholder {
+		color: $color-orange;
+	}
+	&:nth-child(2) {
+		margin: 2.7rem 4.6rem 3.2rem 4.6rem;
+	}
+	&:nth-child(3) {
+		margin: 0 4.6rem 4.3rem 4.6rem;
+	}
+
+	&:nth-child(4) {
+		margin: 0 4.6rem 4.7rem 4.6rem;
+	}
+}
+
+.c-trial-form__footer {
+	background-color: $color-orange;
+	text-align: center;
+	font-weight: 600;
+	color: $white;
+	padding: 1.7rem;
+}
+
+.c-trial-form__button {
+	background-color: transparent;
+	border: none;
+	font-size: 1.5rem;
+	font-weight: 600;
+	color: $white;
+}

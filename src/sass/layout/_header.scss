@@ -5,22 +5,10 @@
 .c-header__wrapper {
     @include flex-center;
     flex-direction: column;
-    padding: 2.7rem 1rem 2.6rem;
+    padding: 2rem 1rem 2rem;
 
     @include mq($phone, min) {
         flex-direction: row;
         justify-content: space-between;
     }
-}
-.c-header__logo {
-    margin-bottom: 2rem;
-
-    @include mq($phone, min) {
-        margin-bottom: 0;
-    }
-}
-
-.c-header__logo-image {
-    height: 2.7rem;
-    width: 7.9rem;
 }

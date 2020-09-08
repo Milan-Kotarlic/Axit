@@ -1,0 +1,48 @@
+.c-hero-banner {
+	background-color: rgba($black, 0.52);
+	background-image: url(../assets/images/hero-background.png);
+	background-size: cover;
+	background-position: center center;
+	background-blend-mode: soft-light;
+	
+	@include mq($tablet, min) {
+		padding: 11rem 0 12.6rem;
+	}
+}
+
+.c-hero-banner__wrapper {
+	padding: 2rem 1rem;
+
+	@include mq($phone, min) {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	@include mq($tablet, min) {
+		padding: 0;
+	}
+}
+
+.c-hero-banner-content {
+	text-align: center;
+
+		@include mq($phone, min) {
+			width: 50%;	
+			margin-right: 2rem;
+			text-align: start;
+		}
+}
+
+.c-hero-banner-content__text {
+	color: $white;
+	opacity: 0.8;
+	font-family: $font-secondary;
+	font-weight: 300;
+	margin-bottom: 2rem;
+	font-size: 1.6rem;
+	line-height: 2.3rem;
+
+	@include mq($tablet, min) {
+		margin-bottom: 4.3rem;
+	}
+}

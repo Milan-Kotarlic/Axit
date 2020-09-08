@@ -3,12 +3,8 @@
 }
 
 .c-social-media__link {
-	color: $icons;
-	font-size: 3rem;
+	fill: $icons;
 
-	@include mq($tablet, min) {
-		font-size: 3.4rem;
-	}
 
 	&:not(:last-child) {
 		margin-right: 1rem;
@@ -20,5 +16,15 @@
 		@include mq($lap-small, min) {
 			margin-right: 6rem;
 		}
+	}
+}
+
+.c-social-media__icon {
+	width: 3rem;
+	height: 3rem;
+
+	@include mq($tablet, min) {
+		width: 4.8rem;
+	height: 4.8rem;
 	}
 }

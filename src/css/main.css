@@ -106,11 +106,6 @@ body {
 .u-heading-md--white {
   color: #ffffff; }
 
-.u-heading-md--orange {
-  color: #FF8B38;
-  text-transform: capitalize;
-  line-height: 2.4rem; }
-
 .u-heading-md--dark-gray {
   color: #212121;
   line-height: 4.3rem; }
@@ -155,7 +150,11 @@ body {
   background-color: #F5F5F5; }
 
 .c-trial-form__heading {
-  padding: 1.5rem 0; }
+  padding: 1.5rem 0;
+  text-transform: capitalize; }
+  .c-trial-form__heading span {
+    text-transform: uppercase;
+    color: #FF8B38; }
 
 .c-trial-form__input {
   margin: 0 4.6rem;
@@ -192,15 +191,34 @@ body {
   @media screen and (min-width: 640px) {
     .c-logo {
       margin-bottom: 0; } }
-  .c-logo.is-hero-logo {
-    margin-bottom: 2.5rem; }
-    .c-logo.is-hero-logo .c-logo__image {
-      width: 17.5rem;
-      height: 6rem; }
 
 .c-logo__image {
   height: 2.7rem;
   width: 7.9rem; }
+
+.c-logo.is-hero-logo {
+  margin-bottom: 2.5rem; }
+  .c-logo.is-hero-logo .c-logo__image {
+    width: 17.5rem;
+    height: 6rem; }
+
+.c-social-media {
+  align-self: center; }
+
+.c-social-media__link {
+  color: #CCCCCC;
+  font-size: 3rem; }
+  @media screen and (min-width: 991px) {
+    .c-social-media__link {
+      font-size: 3.4rem; } }
+  .c-social-media__link:not(:last-child) {
+    margin-right: 1rem; }
+    @media screen and (min-width: 640px) {
+      .c-social-media__link:not(:last-child) {
+        margin-right: 3rem; } }
+    @media screen and (min-width: 1250px) {
+      .c-social-media__link:not(:last-child) {
+        margin-right: 6rem; } }
 
 .c-header {
   background-color: #000000; }
@@ -288,3 +306,37 @@ body {
   @media screen and (min-width: 991px) {
     .c-hero-banner-content__text {
       margin-bottom: 4.3rem; } }
+
+.c-media {
+  text-align: center;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.38);
+  padding: 2rem 1rem;
+  margin-bottom: 2rem; }
+  @media screen and (min-width: 991px) {
+    .c-media {
+      padding: 1.7rem 0 1.9rem;
+      text-align: start; } }
+
+@media screen and (min-width: 991px) {
+  .c-media__wrapper {
+    display: flex;
+    justify-content: space-between; } }
+
+.c-media__content {
+  max-width: 36.4rem;
+  margin: 0 auto; }
+  @media screen and (min-width: 991px) {
+    .c-media__content {
+      margin: 0; } }
+
+.c-media__heading {
+  margin-bottom: 1rem; }
+  @media screen and (min-width: 991px) {
+    .c-media__heading {
+      margin-bottom: 0.5rem; } }
+
+.c-media__text {
+  margin-bottom: 1rem; }
+  @media screen and (min-width: 991px) {
+    .c-media__text {
+      margin-bottom: 0; } }

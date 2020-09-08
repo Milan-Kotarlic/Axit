@@ -25,6 +25,12 @@
 
 .c-trial-form__heading {
 	padding: 1.5rem 0;
+	text-transform: capitalize;
+
+	span {
+		text-transform: uppercase;
+		color: $color-orange;
+	}
 }
 
 .c-trial-form__input {

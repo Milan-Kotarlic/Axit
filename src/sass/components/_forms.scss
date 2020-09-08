@@ -6,7 +6,6 @@
 	justify-content: space-between;
 	overflow: hidden;
 	width: 30rem;
-	height: 30rem;
 	margin: 2rem auto 0;
 	border-radius: 5px;
 
@@ -16,32 +15,43 @@
 
 	@include mq($tablet, min) {
 		width: 36rem;
-		height: 37.1rem;
 	}
 }
 
 .c-trial-form__header {
-	padding: 1.3rem 0 1.4rem;
 	text-align: center;
 	background-color: $background;
-	height: 5.4rem;
+}
 
+.c-trial-form__heading {
+	padding: 1.5rem 0;
 }
 
 .c-trial-form__input {
 	margin: 0 4.6rem;
 	border: none;
 	box-shadow: 0 1px 0 rgba($black, 0.16);
-	padding: 0.8rem 0 0.8rem 1.4rem;
+	padding: 0.95rem 0 0.95rem 1.4rem;
+	line-height: 1.68rem;
+	font-size: 1.4rem;
 
 	&::placeholder {
 		color: $color-orange;
+	}
+	&:nth-child(2) {
+		margin: 2.7rem 4.6rem 3.2rem 4.6rem;
+	}
+	&:nth-child(3) {
+		margin: 0 4.6rem 4.3rem 4.6rem;
+	}
+
+	&:nth-child(4) {
+		margin: 0 4.6rem 4.7rem 4.6rem;
 	}
 }
 
 .c-trial-form__footer {
 	background-color: $color-orange;
-	height: 5.4rem;
 	text-align: center;
 	font-weight: 600;
 	color: $white;
@@ -51,4 +61,7 @@
 .c-trial-form__button {
 	background-color: transparent;
 	border: none;
+	font-size: 1.5rem;
+	font-weight: 600;
+	color: $white;
 }

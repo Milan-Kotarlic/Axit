@@ -125,7 +125,7 @@ button, input {
   display: inline-block;
   color: #ffffff;
   text-decoration: none;
-  padding: 1.1rem 3rem;
+  padding: 1.05rem 2.95rem;
   border: 1px solid #ffffff;
   font-weight: 600;
   font-size: 1.5rem;
@@ -136,7 +136,7 @@ button, input {
   border-radius: 2px;
   border: none;
   line-height: 2rem;
-  padding: 1.3rem 2.5rem 1.5rem; }
+  padding: 1rem 3.1rem 1rem; }
 
 .c-trial-form {
   display: flex;
@@ -254,8 +254,8 @@ button, input {
   z-index: 10; }
   @media screen and (min-width: 991px) {
     .c-slider__radio {
-      width: 11.1rem;
-      height: 11.1rem;
+      width: 11rem;
+      height: 11rem;
       top: 0;
       left: 0; } }
 
@@ -264,14 +264,14 @@ button, input {
   @media screen and (min-width: 991px) {
     .c-slider__radio--2 {
       left: 0;
-      top: 11.1rem; } }
+      top: 11rem; } }
 
 .c-slider__radio--3 {
   top: 10rem; }
   @media screen and (min-width: 991px) {
     .c-slider__radio--3 {
       left: 0;
-      top: 22.2rem; } }
+      top: 22rem; } }
 
 .c-slider-boxes {
   display: flex;
@@ -298,9 +298,9 @@ button, input {
     border-radius: 0 0 5px 5px; }
   @media screen and (min-width: 991px) {
     .c-slider-boxes__button {
-      height: 11.1rem;
-      width: 11.1rem;
-      font-size: 1.4rem; } }
+      height: 11rem;
+      width: 11rem;
+      font-size: 1.5rem; } }
 
 .c-slider__content {
   position: relative;
@@ -493,4 +493,4 @@ button, input {
   overflow: hidden; }
   @media screen and (min-width: 991px) {
     .c-transition-tabs {
-      padding: 14.75rem 0 11.45rem; } }
+      padding: 14.9rem 0 11.6rem; } }

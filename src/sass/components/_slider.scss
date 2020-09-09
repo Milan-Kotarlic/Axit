@@ -18,8 +18,8 @@
 	z-index: 10;
 
 	@include mq($tablet, min) {
-		width: 11.1rem;
-		height: 11.1rem;
+		width: 11rem;
+		height: 11rem;
 		top: 0;
 		left: 0;
 	}
@@ -30,7 +30,7 @@
 
 	@include mq($tablet, min) {
 		left: 0;
-		top: 11.1rem;
+		top: 11rem;
 	}
 }
 
@@ -40,7 +40,7 @@
 
 	@include mq($tablet, min) {
 		left: 0;
-		top: 22.2rem;
+		top: 22rem;
 	}
 }
 
@@ -75,9 +75,9 @@
 	}
 
 	@include mq($tablet, min) {
-		height: 11.1rem;
-		width: 11.1rem;
-		font-size: 1.4rem;
+		height: 11rem;
+		width: 11rem;
+		font-size: 1.5rem;
 	}
 }
 

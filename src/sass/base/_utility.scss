@@ -7,11 +7,11 @@
     font-weight: 400;
     margin-bottom: 5rem;
     text-transform: uppercase;
-    
+
     @include mq($phone, min) {
         font-size: 3.3rem;
     }
- 
+
     @include mq($tablet, min) {
         font-size: 3.6rem;
     }
@@ -61,12 +61,6 @@
 
 .u-heading-md--white {
     color: $white;
-}
-
-.u-heading-md--orange {
-    color: $color-orange;
-    text-transform: capitalize;
-    line-height: 2.4rem;
 }
 
 .u-heading-md--dark-gray {

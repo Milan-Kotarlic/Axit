@@ -25,6 +25,12 @@
 
 .c-trial-form__heading {
 	padding: 1.5rem 0;
+	text-transform: capitalize;
+
+	span {
+		text-transform: uppercase;
+		color: $color-orange;
+	}
 }
 
 .c-trial-form__input {
@@ -34,9 +40,11 @@
 	padding: 0.95rem 0 0.95rem 1.4rem;
 	line-height: 1.68rem;
 	font-size: 1.4rem;
+	color: $form-text;
 
 	&::placeholder {
-		color: $color-orange;
+		color: $form-text;
+		font-family: $main-font;
 	}
 	&:nth-child(2) {
 		margin: 2.7rem 4.6rem 3.2rem 4.6rem;
@@ -51,7 +59,7 @@
 }
 
 .c-trial-form__footer {
-	background-color: $color-orange;
+	background-color: $color-orange-1;
 	text-align: center;
 	font-weight: 600;
 	color: $white;

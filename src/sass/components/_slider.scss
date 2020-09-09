@@ -1,0 +1,168 @@
+.c-slider {
+	position: relative;
+	display: flex;
+	padding: 2rem 1rem;
+
+	@include mq($tablet, min) {
+		padding: 0;
+	}
+}
+
+.c-slider__radio {
+	width: 4rem;
+	height: 4rem;
+	position: absolute;
+	top: 2rem;
+	left: 1rem;
+	opacity: 0;
+	z-index: 10;
+
+	@include mq($tablet, min) {
+		width: 11.1rem;
+		height: 11.1rem;
+		top: 0;
+		left: 0;
+	}
+}
+
+.c-slider__radio--2 {
+	top: 6rem;
+
+	@include mq($tablet, min) {
+		left: 0;
+		top: 11.1rem;
+	}
+}
+
+.c-slider__radio--3 {
+	top: 10rem;
+
+
+	@include mq($tablet, min) {
+		left: 0;
+		top: 22.2rem;
+	}
+}
+
+.c-slider-boxes {
+	display: flex;
+	z-index: 5;
+	flex-direction: column;
+	margin-right: 1rem;
+
+	@include mq($tablet, min) {
+		margin-right: 10rem;
+	}
+}
+
+.c-slider-boxes__button {
+	height: 4rem;
+	width: 4rem;
+	background-color: $gray;
+	color: $white;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-family: $main-font;
+	border: solid 1px $form-text;
+	font-size: 1.2rem;
+
+	&:first-child{
+		border-radius: 5px 5px 0 0;
+	}
+
+	&:last-child {
+		border-radius: 0 0 5px 5px;
+	}
+
+	@include mq($tablet, min) {
+		height: 11.1rem;
+		width: 11.1rem;
+		font-size: 1.4rem;
+	}
+}
+
+.c-slider__content {
+	position: relative;
+	left: -100%;
+	transition: all 1s ease;
+	z-index: -1;
+	min-width: 80%;
+	display: flex;
+	flex-direction: column;
+	top: 0;
+
+	@include mq($tablet, min) {
+		flex-direction: row;
+	}
+}
+
+.c-slider__content-wrapper {
+	margin-right: 2rem;
+
+	@include mq($tablet, min) {
+		margin-right: 10rem;
+	}
+}
+
+.c-slider__heading {
+	margin-bottom: 2rem;
+
+	@include mq($tablet, min) {
+		margin-bottom: 4.7rem;
+		margin-top: 0.4rem;
+	}
+}
+
+.c-slider__text {
+	margin-bottom: 2rem;
+
+	&:nth-child(3){
+
+		@include mq($tablet, min) {
+			margin-bottom: 4.7rem;
+		}
+	}
+}
+
+.c-slider__image {
+	margin-top: 2rem;
+	width: 20rem;
+
+	@include mq($tablet, min) {
+		margin-top: 2.35rem;
+		width: 31.9 rem;
+		height: 25.2rem;
+		margin-top: 1rem;
+	}
+}
+
+.c-slider__radio--1:checked~.c-slider__content--1 {
+	left: 0;
+	z-index: 1;
+}
+
+.c-slider__radio--2:checked~.c-slider__content--2 {
+	left: -80%;
+	z-index: 1;
+
+	@include mq($tablet, min) {
+		left: -80%;
+	}
+}
+
+.c-slider__radio--3:checked~.c-slider__content--3 {
+	left: -160%;
+	z-index: 1;
+}
+
+.c-slider__radio--1:checked~.c-slider-boxes >.c-slider-boxes__button--1 {
+	background-color: $color-orange;
+}
+
+.c-slider__radio--2:checked~.c-slider-boxes >.c-slider-boxes__button--2 {
+	background-color: $color-orange;
+}
+
+.c-slider__radio--3:checked~.c-slider-boxes >.c-slider-boxes__button--3 {
+	background-color: $color-orange;
+}

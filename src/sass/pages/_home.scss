@@ -4,7 +4,7 @@
 	background-size: cover;
 	background-position: center center;
 	background-blend-mode: soft-light;
-	
+
 	@include mq($tablet, min) {
 		padding: 11rem 0 12.6rem;
 	}
@@ -27,7 +27,7 @@
 	text-align: center;
 
 		@include mq($phone, min) {
-			width: 50%;	
+			width: 50%;
 			margin-right: 2rem;
 			text-align: start;
 		}
@@ -87,4 +87,12 @@
 	@include mq($tablet, min) {
 		margin-bottom: 0;
 }
+}
+.c-transition-tabs {
+	background-color: $background;
+	overflow: hidden;
+
+	@include mq($tablet, min) {
+		padding: 14.75rem 0 11.45rem;
+	}
 }

@@ -10,21 +10,47 @@
 		align-items: start;
 		text-align: start;
 		justify-content: space-between;
+		padding: 0;
+	}
+
+	&.is-reverse {
+
+		@include mq($tablet, min) {
+			flex-direction: row-reverse;
+		}
+
+		.c-sub-list__image {
+			
+			@include mq($lap-small, min) {
+				transform: translateX(10rem);
+			}
+		}
 	}
 }
 
 .c-sub-list__left {
-	width: 90%;
+	width: 100%;
+	height: auto;
+	display: flex;
+	justify-content: start;
+
+	@include mq($tablet, min) {
+		height: 40.3rem
+	}
 }
 
 .c-sub-list__image {
 	width: 100%;
 	height: 100%;
-	object-fit: cover;
+	object-fit: contain;
+
+	@include mq($lap-small, min) {
+		transform: translateX(-10rem);
+	}
 }
 
 .c-sub-list__right {
-
+	max-width: 50rem;
 	@include mq($tablet, min) {
 		padding: 0 3.1rem;
 	}

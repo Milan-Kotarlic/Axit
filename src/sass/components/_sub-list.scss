@@ -20,7 +20,7 @@
 		}
 
 		.c-sub-list__image {
-			
+
 			@include mq($lap-small, min) {
 				transform: translateX(10rem);
 			}

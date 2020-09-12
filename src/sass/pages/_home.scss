@@ -96,3 +96,19 @@
 		padding: 14.9rem 0 11.6rem;
 	}
 }
+
+.c-sub-list-section {
+
+	@include mq($tablet, min) {
+		padding: 9.7rem 0 9.6rem;
+	}
+}
+
+.c-standard-picture-section {
+	background-color: $background;
+	padding: 2rem 1rem;
+
+	@include mq($tablet, min) {
+		padding: 6.1rem 0 6rem;
+	}
+}
